@@ -5,8 +5,7 @@ class Book:
         self.days = 5
         self.days = 6
         self.pisatel = 0
-    def borrow_book(self,day):
-        self.days =day and self.days=day
+
 
 class Clssika(Book):
     def __init__(self,name,type):
